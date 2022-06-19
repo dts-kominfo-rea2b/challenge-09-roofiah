@@ -7,11 +7,11 @@ const Contact = ({ data }) => {
     const { name, email, phone, photo } = data;
     return (
         <div className='boxContact'>
-            <div>
+            <div className='profile'>
                 <img src={photo} alt={name} />
             </div>
-            <div>
-                <div><p>{name}</p></div>
+            <div className='description'>
+                <div><p><b>{name}</b></p></div>
                 <div>
                     <p>{phone}</p>
                     <p>{email}</p>

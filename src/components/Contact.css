@@ -1,3 +1,26 @@
 .boxContact{
     background-color: #F4DEB3;
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+    border-radius: 20px;
+    flex-direction: row;
+    display: flex;
+    width: 500px;
+    height: 150px;
+}
+.profile{
+    height: 100%;
+    width: 30%;
+}
+
+.profile img{
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+}
+
+.description{
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
 }

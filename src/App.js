@@ -11,7 +11,7 @@ const App = () => {
     <div className="App">
       <div className="container">
         <Header />
-        <div className="boxContact">
+        <div>
           {contacts.map((data) => {
             return <Contact key={data.email} data={data} />
           })}
